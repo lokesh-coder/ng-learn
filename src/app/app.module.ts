@@ -2,9 +2,13 @@ import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
+// import { BrandComponent } from "./components/brand.component"; // <= import component
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent
+    // BrandComponent // <= include in module
+  ],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
