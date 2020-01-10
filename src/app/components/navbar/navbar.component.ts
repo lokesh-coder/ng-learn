@@ -4,4 +4,6 @@ import { Component } from "@angular/core";
   selector: "app-navbar",
   templateUrl: "./navbar.template.html"
 })
-export class NavbarComponent {}
+export class NavbarComponent {
+  items = ["Home", "Blog", "Register", "Twitter"];
+}
