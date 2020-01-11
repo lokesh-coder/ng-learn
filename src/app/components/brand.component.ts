@@ -7,3 +7,10 @@ import { Component } from "@angular/core";
   `
 })
 export class BrandComponent {}
+
+/*
+
+use @Input() to get the value from parent to child
+use @Output() to emit value from child to parent
+
+*/
