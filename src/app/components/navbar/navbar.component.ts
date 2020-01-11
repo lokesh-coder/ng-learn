@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
 export class NavbarComponent {
   items = ["Home", "Blog", "Register", "Twitter"];
 
-  // onBrandClick() {
-  //   console.log("brand clicked");
-  // }
+  onBrandClick() {
+    console.log("brand clicked");
+  }
 }

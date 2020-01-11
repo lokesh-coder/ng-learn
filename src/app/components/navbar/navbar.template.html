@@ -1,17 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <app-brand></app-brand>
-  <!--  update above line -->
+  <app-brand title="NG LEARN" (clicked)="onBrandClick()"></app-brand>
   <ul class="navbar-nav">
     <li class="nav-item" *ngFor="let item of items">
       <a class="nav-link" href="#">{{item}}</a>
     </li>
   </ul>
 </nav>
-
-<!--
-
-Brand name should accept input and emit output on click
-
-<app-brand name="foobar" (clicked)="onBrandClick()"></app-brand>
-
- -->
