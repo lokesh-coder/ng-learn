@@ -5,7 +5,7 @@ import { Component, Input, EventEmitter, Output } from "@angular/core";
   templateUrl: "./login.template.html"
 })
 export class LoginComponent {
-  // logic
+  onLogin() {
+    console.log("clicked login button");
+  }
 }
-
-/* dont forget to include it in module */
